@@ -1,0 +1,26 @@
+{
+  "name": "tradehubmarkets",
+  "title": "TradeHub Markets",
+  "description": "A marketplace for creating trade goods and using them in your game as you travel from planet to planet.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "10",
+  "authors": [
+    {
+      "name": "knoself",
+      "discord": "knoself"
+    }
+  ],
+  "packs": [
+    {
+      "name": "TradeHubmarkets",
+      "label": "TradeHubmarkets",
+      "path": "packs/macros.db",
+      "type": "Macro"
+    }
+  ],
+  "esmodules": ["scripts/gmscreen.js", "scripts/playerscreen.js"],
+  "socket": true,
+  "manifest": "https://github.com/edgedoggo/tradehubmarkets/releases/download/latest/module.json",
+  "download": "https://github.com/edgedoggo/tradehubmarkets/releases/download/latest/tradehubmarkets.zip"
+}
